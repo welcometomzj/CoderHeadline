@@ -9,7 +9,7 @@
 #import "ReadingQualityCell.h"
 #import "ReadingQualityArticleModel.h"
 #import "ReadingUserModel.h"
-#import <UIImageView+WebCache.h>
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "UIButton+ImageTitleSpacing.h"
 
 static const CGFloat cellHeight = 100;

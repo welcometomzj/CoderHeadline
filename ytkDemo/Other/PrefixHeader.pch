@@ -11,6 +11,6 @@
 
 #import "DefaultHeader.h"
 #import "UIView+Extension.h"
-#import <MJExtension.h>
+#import <MJExtension/MJExtension.h>
 
 #endif /* PrefixHeader_pch */

@@ -8,7 +8,7 @@
 
 #import "ReadingLoopBannerCell.h"
 #import "ReadingBannerModel.h"
-#import <UIImageView+WebCache.h>
+#import <SDWebImage/UIImageView+WebCache.h>
 
 @interface ReadingLoopBannerCell ()
 @property (nonatomic, weak)UIImageView *imageVIew;

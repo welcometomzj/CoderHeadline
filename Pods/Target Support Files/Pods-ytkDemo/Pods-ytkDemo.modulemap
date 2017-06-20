@@ -1,0 +1,6 @@
+framework module Pods_ytkDemo {
+  umbrella header "Pods-ytkDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

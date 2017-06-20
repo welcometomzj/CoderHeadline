@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BBE8E8581CE39CDD1CACCFE4 /* libPods-ytkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0BB43D1C277E247DB38E43 /* libPods-ytkDemo.a */; };
+		268568E844E1C454806C41AE /* Pods_ytkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37A5E0D05502AEDB0BD9E24 /* Pods_ytkDemo.framework */; };
 		D86430551DF959F3009A3875 /* ReadingController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86430541DF959F3009A3875 /* ReadingController.m */; };
 		D86430581DF95AE2009A3875 /* ReadingBannerApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D86430571DF95AE2009A3875 /* ReadingBannerApi.m */; };
 		D87D633B1DFA5FF000BAA9C2 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D87D633A1DFA5FF000BAA9C2 /* BaseNavigationViewController.m */; };
@@ -57,8 +57,8 @@
 
 /* Begin PBXFileReference section */
 		1BFA39DC4040989081E2C451 /* Pods-ytkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ytkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ytkDemo/Pods-ytkDemo.release.xcconfig"; sourceTree = "<group>"; };
-		3A0BB43D1C277E247DB38E43 /* libPods-ytkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ytkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1D3C0DF145C2A58CCE11B4 /* Pods-ytkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ytkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ytkDemo/Pods-ytkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B37A5E0D05502AEDB0BD9E24 /* Pods_ytkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ytkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86430531DF959F3009A3875 /* ReadingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingController.h; sourceTree = "<group>"; };
 		D86430541DF959F3009A3875 /* ReadingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadingController.m; sourceTree = "<group>"; };
 		D86430561DF95AE2009A3875 /* ReadingBannerApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingBannerApi.h; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBE8E8581CE39CDD1CACCFE4 /* libPods-ytkDemo.a in Frameworks */,
+				268568E844E1C454806C41AE /* Pods_ytkDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +159,7 @@
 		CDD6C58892F98CBFABB95B10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3A0BB43D1C277E247DB38E43 /* libPods-ytkDemo.a */,
+				B37A5E0D05502AEDB0BD9E24 /* Pods_ytkDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
