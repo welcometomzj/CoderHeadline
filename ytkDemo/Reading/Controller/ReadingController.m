@@ -14,6 +14,7 @@
 #import "ReadingQualityArticleModel.h"
 #import "ReadingLoopBanner.h"
 #import "ReadingQualityCell.h"
+#import <MJRefresh/MJRefresh.h>
 
 @interface ReadingController () <UITableViewDelegate, UITableViewDataSource>
 {
@@ -61,6 +62,12 @@
     } failure:^(__kindof YTKBaseRequest * _Nonnull request) {
         
     }];
+}
+
+- (void)reloadData
+{
+    sleep(3);
+    [_tableView.mj_header endRefreshing];
 }
 
 #pragma mark - 创建UI
@@ -121,6 +128,9 @@
         _tableView.dataSource = self;
         _tableView.tableHeaderView = self.bannerView;
         _tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+        MJRefreshNormalHeader *header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(reloadData)];
+        header.lastUpdatedTimeLabel.hidden = YES;
+        _tableView.mj_header = header;
     }
     return _tableView;
 }

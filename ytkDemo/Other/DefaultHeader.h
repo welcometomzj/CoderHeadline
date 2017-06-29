@@ -38,7 +38,7 @@
 #define kWhiteColor [UIColor whiteColor]
 
 ///主题色
-#define kMainColor [UIColor colorForHex:@"33B6EC"]
+#define kMainColor [UIColor colorForHex:@"27B5EE"]
 
 
 

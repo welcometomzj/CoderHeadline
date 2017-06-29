@@ -42,7 +42,7 @@
     [self addSubview:darkView];
     
     UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(12, 0, kScreenWidth - 24, darkViewHeight)];
-    titleLabel.font = kBoldFont(14);
+    titleLabel.font = kBoldFont(16);
     titleLabel.textColor = kWhiteColor;
     titleLabel.numberOfLines = 0;
     [darkView addSubview:titleLabel];

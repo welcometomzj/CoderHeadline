@@ -1,6 +1,4 @@
-#ifdef __OBJC__
 #import <UIKit/UIKit.h>
-#endif
 
 #import "YTKBaseRequest.h"
 #import "YTKBatchRequest.h"
